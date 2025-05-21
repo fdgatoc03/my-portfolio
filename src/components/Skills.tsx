@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Terminal, Cpu, Monitor } from 'lucide-react';
+import { Code, Database, Terminal, Cpu, Monitor, Gamepad2 } from 'lucide-react';
 
 type SkillCategoryProps = {
   title: string;
@@ -76,6 +76,12 @@ const Skills: React.FC = () => {
     { name: 'WordPress', level: 72 },
   ];
 
+  const gameDevSkills = [
+    { name: 'Unity Engine', level: 78 },
+    { name: 'C# (Game Scripting)', level: 70 },
+    { name: '2D/3D Game Mechanics', level: 65 },
+  ];
+
   return (
     <section id="skills" className="py-20 bg-white dark:bg-gray-800">
       <div className="container mx-auto px-4 sm:px-6">
@@ -113,13 +119,18 @@ const Skills: React.FC = () => {
             skills={toolsSkills} 
             icon={<Cpu className="text-blue-600 dark:text-blue-400" size={24} />}
           />
+          <SkillCategory 
+            title="Game Development" 
+            skills={gameDevSkills} 
+            icon={<Gamepad2 className="text-blue-600 dark:text-blue-400" size={24} />}
+          />
         </div>
 
         <div className="mt-16 bg-gray-50 dark:bg-gray-700 rounded-lg p-8 shadow-md">
           <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-6 text-center">Other Technical Skills</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Responsive Design', 'UI/UX Design', 'Authentication Systems', 'Role-Based Access', 
+              'Unity Engine', 'Responsive Design', 'UI/UX Design', 'Authentication Systems', 'Role-Based Access', 
               'Session Management', 'RESTful APIs', 'Mobile-First Design', 'Cross-Browser Compatibility', 
               'Version Control', 'Collaborative Development', 'Problem Solving', 'Debugging',
               'Code Optimization', 'Performance Tuning'
