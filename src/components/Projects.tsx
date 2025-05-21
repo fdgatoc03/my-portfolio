@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
       image: "image/digital.png",
       tags: ["PHP", "TypeScript", "JavaScript", "Tailwind CSS"],
       // link: "#",
-      github: "#",
+      github: "https://github.com/fdgatoc03/Digital-Contract-Signing-Approval-Workflow",
       category: 'frontend'
     },
     {
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
       description: "A modernreal estate website with interactive listings, agent profiles, blog, social media integration, and responsive design for seamless marketing and sales.",
       image: "image/real-estate.png",
       tags: ["PHP", "MySQL", "JavaScript", "Tailwind CSS"],
-      github: "#",
+      github: "https://github.com/fdgatoc03/Real-Estate-new",
       category: 'backend'
     },
     {
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
       description: "CareLink is a healthcare app built with React and TypeScript that connects patients with nearby pharmacies, featuring secure login, inventory tracking, and a responsive Tailwind CSS design..",
       image: "image/carelink.png",
       tags: ["React", "TypeScript", "API Integration", "Responsive Design"],
-      link: "#",
+      github: "https://github.com/fdgatoc03/CareLink",
       category: 'fullstack'
     }
   ];
