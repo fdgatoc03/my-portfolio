@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
       title: "Getko Online Ordering Platform",
       description: "An e-commerce platform with wishlist, shopping cart, and role-based access control developed using Laravel, MySQL, and AJAX.",
       image: "image/getko.jpg",
-      tags: ["Laravel", "MySQL", "AJAX", "Tailwind CSS", "Docker"],
+      tags: ["Laravel", "MySQL", "AJAX", "Tailwind CSS", "Docker", "RESTful API", "Authentication"],
       link: "https://getko.ph/",
       // github: "#",
       category: 'fullstack'
@@ -27,50 +27,50 @@ const Projects: React.FC = () => {
     {
       id: 2,
       title: "PetChecker",
-      description: "A responsive personal portfolio website built with React and Tailwind CSS featuring dark mode support.",
+      description: "A sleek, responsive React Native portfolio with dark mode, showcasing projects and skills with a clean modern design.",
       image: "image/petchecker.jpg",
-      tags: ["React", "Tailwind CSS", "TypeScript", "Responsive Design"],
+      tags: ["React Native", "TypeScript", "Mobile App", "Dark Mode"],
       link: "https://app.petcheckr.eu/login",
-       // github: "#",
+      // github: "#",
       category: 'frontend'
     },
-    // {
-    //   id: 3,
-    //   title: "Task Management Dashboard",
-    //   description: "A full-featured task management application with user authentication, task assignment, and progress tracking.",
-    //   image: "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    //   tags: ["Laravel", "React", "MySQL", "RESTful API"],
-    //   github: "#",
-    //   category: 'fullstack'
-    // },
-    // {
-    //   id: 4,
-    //   title: "Weather Forecast App",
-    //   description: "A weather forecast application that uses a third-party API to display current and future weather conditions.",
-    //   image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    //   tags: ["React", "API Integration", "CSS3", "JavaScript"],
-    //   link: "#",
-    //   github: "#",
-    //   category: 'frontend'
-    // },
-    // {
-    //   id: 5,
-    //   title: "E-commerce API Service",
-    //   description: "A backend RESTful API service built for e-commerce applications with product, order, and user management.",
-    //   image: "https://images.pexels.com/photos/963486/pexels-photo-963486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    //   tags: ["Laravel", "MySQL", "RESTful API", "Authentication"],
-    //   github: "#",
-    //   category: 'backend'
-    // },
-    // {
-    //   id: 6,
-    //   title: "Social Media Dashboard",
-    //   description: "A social media analytics dashboard that visualizes engagement metrics across multiple platforms.",
-    //   image: "https://images.pexels.com/photos/6476260/pexels-photo-6476260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    //   tags: ["React", "Chart.js", "API Integration", "Responsive Design"],
-    //   link: "#",
-    //   category: 'frontend'
-    // }
+    {
+      id: 3,
+      title: "DreadLight",
+      description: "A chilling horror co-op game currently in development using Unity and C#, featuring dark atmospheric visuals and intense multiplayer gameplay.",
+      image: "image/dreadlight.jpg",
+      tags: ["Unity", "C#", "Game Development", "3D", "Dark Theme"],
+      // github: "#",
+      category: 'game dev'
+    },
+    {
+      id: 4,
+      title: "Digital-Contract-Signing-Approval-Workflow",
+      description: "A digital contract app with e-signatures, approval workflows, version control, and secure storage, using Zustand for state management.",
+      image: "image/digital.png",
+      tags: ["PHP", "TypeScript", "JavaScript", "Tailwind CSS"],
+      // link: "#",
+      github: "#",
+      category: 'frontend'
+    },
+    {
+      id: 5,
+      title: "Real Estate",
+      description: "A modernreal estate website with interactive listings, agent profiles, blog, social media integration, and responsive design for seamless marketing and sales.",
+      image: "image/real-estate.png",
+      tags: ["PHP", "MySQL", "JavaScript", "Tailwind CSS"],
+      github: "#",
+      category: 'backend'
+    },
+    {
+      id: 6,
+      title: "CareLink",
+      description: "CareLink is a healthcare app built with React and TypeScript that connects patients with nearby pharmacies, featuring secure login, inventory tracking, and a responsive Tailwind CSS design..",
+      image: "image/carelink.png",
+      tags: ["React", "TypeScript", "API Integration", "Responsive Design"],
+      link: "#",
+      category: 'fullstack'
+    }
   ];
 
   const [filter, setFilter] = useState<'all' | 'frontend' | 'backend' | 'fullstack' | 'game dev'>('all');
