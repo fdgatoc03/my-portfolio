@@ -20,10 +20,10 @@ const Hero: React.FC = () => {
               Francis Daryl Gatoc
             </h1>
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-600 dark:text-gray-300 mb-6 animate-slideUp animation-delay-100">
-              Software Engineer
+              Software Engineer / Game Developer
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg animate-slideUp animation-delay-200">
-              Crafting seamless web experiences with Laravel, React, and modern technologies. Focused on building responsive, user-centered solutions.
+            Crafting seamless web and game experiences with Laravel, React, Unity, and modern technologies. Focused on building responsive, user-centered solutions.
             </p>
             <div className="flex flex-wrap gap-4 mb-8 animate-slideUp animation-delay-300">
               <a 
@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 px-4 py-2 rounded-lg shadow-md">
-                <span className="text-blue-600 dark:text-blue-400 font-medium">Web Developer</span>
+                <span className="text-blue-600 dark:text-blue-400 font-medium">Software Engineer / Game Developer</span>
               </div>
             </div>
           </div>
