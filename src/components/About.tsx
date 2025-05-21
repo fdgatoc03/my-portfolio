@@ -13,17 +13,34 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Who I Am</h3>
+
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Detail-oriented and results-driven Software Engineer with experience in developing web applications using Laravel, React, MySQL, and other modern web technologies. Proficient in building responsive, scalable solutions with a strong focus on UI/UX and backend architecture.
+              <span className="font-semibold text-indigo-600">Detail-oriented</span> and 
+              <span className="font-semibold text-indigo-600"> results-driven Software Engineer</span> with hands-on experience in developing dynamic web applications using 
+              <span className="font-semibold text-indigo-600"> Laravel, React, MySQL</span>, and other modern web technologies. Proficient in crafting 
+              <span className="font-semibold text-indigo-600"> responsive, scalable solutions</span> with a strong emphasis on 
+              <span className="font-semibold text-indigo-600"> UI/UX design</span> and 
+              <span className="font-semibold text-indigo-600"> robust backend architecture</span>.
             </p>
+
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Skilled in secure authentication systems, role-based access, and optimizing user experiences across devices. Committed to continuous learning and collaborative development.
+              Experienced in implementing 
+              <span className="font-semibold text-indigo-600"> secure authentication systems</span>, 
+              <span className="font-semibold text-indigo-600"> role-based access control</span>, and optimizing performance across devices for 
+              <span className="font-semibold text-indigo-600"> seamless user experiences</span>. Demonstrates a strong commitment to 
+              <span className="font-semibold text-indigo-600"> continuous learning</span>, 
+              <span className="font-semibold text-indigo-600"> clean code practices</span>, and 
+              <span className="font-semibold text-indigo-600"> collaborative team development</span>.
             </p>
+
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              Recently graduated with a Bachelor of Science in Information Technology and gained valuable experience during my internship and subsequent role at Exocoder Inc.
+              Recently earned a 
+              <span className="font-semibold text-indigo-600">Bachelor of Science in Information Technology</span>, gaining practical experience during an internship and subsequent employment at 
+              <span className="font-semibold text-indigo-600">Exocoder Inc.</span>, where I contributed to both 
+              <span className="font-semibold text-indigo-600"> web and game development projects</span> using tools such as 
+              <span className="font-semibold text-indigo-600"> Unity</span> alongside web technologies.
             </p>
           </div>
-
           <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-8 shadow-md">
             <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-6">Personal Details</h3>
             <div className="space-y-4">
